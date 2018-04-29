@@ -1,0 +1,4 @@
+__pycache__
+*.pyc
+phi/local_settings.py
+
