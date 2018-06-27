@@ -119,5 +119,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-from phi.local_settings import *
-
+try:
+    from phi.local_settings import *
+except ModuleNotFoundError:
+    pass
