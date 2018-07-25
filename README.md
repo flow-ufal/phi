@@ -48,7 +48,7 @@ If you want to use another database system, follow the steps in the previous sec
 ## Authors
 
 * **Augusto José Alencar** - [ajtga](https://github.com/ajtga)
-* **Ewerton Amorim** -  [ewerton94](https://github.com/ewerton94)
+* **Ewerton Amorim** - [ewerton94](https://github.com/ewerton94)
 * **Adelson Santos** - [ajadelson](https://github.com/Ajadelson)
 * **Clebson Carvalho** - [clebsonpy](https://github.com/clebsonpy)
 
