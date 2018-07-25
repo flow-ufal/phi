@@ -33,7 +33,7 @@ If everything went right, this should get you going.
 
 #### Using other databases
 
-If you want to use another database system follow the steps replacing the ones related to the database. [Here](https://github.com/ODM2/ODM2/tree/master/src/blank_schema_scripts) are some other blank schema scripts for you to use.
+If you want to use another database system, follow the steps in the previous section replacing the ones related to the database with proper actions according to the chosen database. [Here](https://github.com/ODM2/ODM2/tree/master/src/blank_schema_scripts) are some other blank schema scripts for you to use.
 
 ## Built With 
 
