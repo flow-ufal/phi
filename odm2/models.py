@@ -6,8 +6,8 @@ import uuid
 from django.db import models
 from django.db.models import UUIDField
 
-# from django.db.models import Manager as GeoManager
-# from django.contrib.gis.geos import GEOSGeometry
+from django.db.models import Manager as GeoManager
+from django.contrib.gis.geos import GEOSGeometry
 
 
 # <editor-fold desc="ODM2CV">
@@ -821,12 +821,11 @@ class SamplingFeatures(models.Model):
                                         null=True,
                                         on_delete=models.CASCADE)
 
-    # objects = GeoManager()
+    objects = GeoManager()
 
-    # def featuregeometrywkt(self):
-    #    return GEOSGeometry(self.featuregeometry)
+    def featuregeometrywkt(self):
+        return GEOSGeometry(self.featuregeometry)
 
-    featuregeometrywkt = models.CharField(max_length=8000, blank=True)
 
     def __str__(self):
         s = "%s - %s - %s" % (
