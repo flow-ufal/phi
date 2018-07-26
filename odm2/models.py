@@ -1711,7 +1711,7 @@ class ActionExtensionPropertyValues(models.Model):
         db_table = 'actionextensionpropertyvalues'
 
 
-class Citationextensionpropertyvalues(models.Model):
+class CitationExtensionPropertyValues(models.Model):
     bridgeid = models.AutoField(primary_key=True)
     citationid = models.ForeignKey('Citations', db_column='citationid',
                                    on_delete=models.CASCADE)
