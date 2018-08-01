@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Stations' %} | {% endblock %}
+{% block body %}
+     <section class="content-header">
+      <h1>
+        {% trans 'Station select' %}
+      </h1>
+      
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+  
+      <a href="{% url 'create_station' %}"><p>{% trans 'Create a new station' %}</p></a>
+<ul>
+{% for station in stations  %}
+   {% get_current_language as LANGUAGE_CODE %} 
+    <a href="{{ BASE_URL }}/{{ LANGUAGE_CODE }}/stations/{{ station.id }}/information"><li>{{station}}</li></a>
+    
+    
+{% endfor %}
+</ul>
+    {% if graph %}
+    <div style="width:1000;height: 1000">
+    {{ graph|safe }}
+    </div>
+    {% endif %}  
+      <!-- /.row (main row) -->
+
+    </section>
+    <!-- /.content -->
+{% endblock %}

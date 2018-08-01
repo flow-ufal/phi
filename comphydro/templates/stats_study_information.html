@@ -1,0 +1,93 @@
+{% extends 'base_information.html' %}
+{% load i18n %}
+{% block title %}Stats for study | {% endblock %}
+{% block title_head %}{{ stats.name }}{% trans 'Information' %}{% endblock %}
+{% get_current_language as LANGUAGE_CODE %} 
+{% block subtitle %}<a href="{{ BASE_URL }}/{{ LANGUAGE_CODE }}/stations/{{ station.id }}/information">{{ station }}</a>{% endblock %}
+{% block data %}
+<a href="{% url 'serie_from_parameters' %}">Create base serie</a>
+         {% for serie in resamplings %}
+                  
+        <div class="box box-success">
+            <div class="box-header with-border">
+             <i class="fa fa-files-o"></i>
+              <h3 class="box-title">{{serie.curve.distribution.name}}</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            
+            <div class="box-body">
+                <p><a href="resampling_serie/{{ serie.id }}"><b>Detail</b></a></p>
+                <p><b>Alpha</b> {{ serie.curve.alpha }}</p>
+                <p><b>betha</b> {{ serie.curve.betha }}</p>
+                <p><b>Kappa</b> {{ serie.curve.kappa }}</p>
+            </div>
+            <!-- /.box-body -->
+          </div>
+        {% endfor %}
+        
+{% endblock %}
+
+{% block stats %}
+         {% if variables %}
+          {% for stat in stats %}
+          <div class="box box-solid bg-blue-gradient">
+            <div class="box-header">
+              <i class="glyphicon glyphicon-stats"></i>
+
+              <h3 class="box-title">{{ stat.name }}</h3>
+
+              <div class="box-tools pull-right">
+               
+                <button type="button" class="btn bg-blue btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn bg-blue btn-sm" data-widget="remove"><i class="fa fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="box-body border-radius-none">
+              {% if stat.form %}
+              
+    <form action="" method="POST" class="formularioEmail" enctype="multipart/form-data">
+             
+                {% csrf_token %}
+                {% for field in stat.form %}
+                <div class = "form-group">
+                   
+                  
+                       {% if field.errors %}
+                {{ field.errors }}
+                {% endif %}
+                       
+                     
+                            <label for="{{field.name}}"  >{{field.label}}</label>
+                        
+
+                        
+                            {{ field }}
+                        
+
+                    
+                </div>
+                
+                {% endfor %}
+     
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+
+            </form>
+
+
+
+{%  endif %}
+            </div>
+            <!-- /.box-body -->
+            <!-- /.box-footer -->
+          </div>
+          {% endfor %}
+          {% endif %}
+{% endblock %}    

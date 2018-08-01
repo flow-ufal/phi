@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'New station' %} | {% endblock %}
+{% block body %}
+     <section class="content-header">
+      <h1>
+        {% trans 'Create a new station' %}
+      </h1>
+      
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Small boxes (Stat box) -->
+     
+      
+      
+     
+      <!-- /.row -->
+      <!-- Main row -->
+      <div class="row"> 
+        <!-- Left col -->
+        <section class="col-lg-7 connectedSortable">
+         
+             {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+          {% if form %}
+              
+    <form action="" method="POST" class="formularioEmail" enctype="multipart/form-data">
+             
+                {% csrf_token %}
+                {% for field in form %}
+                <div class = "form-group">
+                   
+                  
+                       {% if field.errors %}
+                {{ field.errors }}
+                {% endif %}
+                       
+                     
+                            <label for="{{field.name}}"  >{{field.label}}</label>
+                        
+
+                        
+                            {{ field }}
+                        
+
+                    
+                </div>
+                
+                {% endfor %}
+     
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+
+            </form>
+
+
+
+{%  endif %}
+        </section>
+      </div>
+      <!-- /.row (main row) -->
+
+    </section>
+    <!-- /.content -->
+{% endblock %}

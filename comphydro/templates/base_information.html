@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% endblock %}
+{% block body %}
+     <section class="content-header">
+      <h1>
+        {% block title_head %}{% endblock %}
+        <small>{% block subtitle %}{{ station }}{% endblock %}</small>
+      </h1>
+      
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+       
+       <a href="file=data.xls"><div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-file-excel-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="header">{% trans 'Export data to Excel' %}</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+         </a>
+        
+              <a href="file=data.json"><div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+              <span class="info-box-icon bg-blue"><h3>{JSON}</h3></span>
+
+            <div class="info-box-content">
+              <span class="header">{% trans 'Export data to JSON' %}</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div></a>
+        <!-- ./col -->
+      </div>
+      
+      
+     
+      <!-- /.row -->
+      <!-- Main row -->
+      <div class="row">
+        <!-- Left col -->
+        <section class="col-lg-7 connectedSortable">
+         {% block data %} {% endblock %}
+         
+         
+          <!-- Custom tabs (Charts with tabs)-->
+          
+
+          <!-- Chat box -->
+          
+
+        </section>
+        <!-- /.Left col -->
+        <!-- right col (We are only adding the ID to make the widgets sortable)-->
+        <section class="col-lg-5 connectedSortable">
+
+          <!-- solid sales graph -->
+          {% block stats %}{% endblock %}
+          
+                   
+          <!-- /.box -->
+
+          <!-- Calendar -->
+         
+          <!-- /.box -->
+
+        </section>
+        <!-- right col -->
+      </div>
+      <!-- /.row (main row) -->
+
+    </section>
+    <!-- /.content -->
+{% endblock %}
