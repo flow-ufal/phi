@@ -1,0 +1,26 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,FieldActivity,A method for performing a cruise action.,Cruise,,,,/api/v1/methodtype/cruise/,cruise,199,Current
+1,Equipment,A method for retrieving data from a datalogger deployed at a monitoring site.,Data retrieval,,,,/api/v1/methodtype/dataRetrieval/,dataRetrieval,200,Current
+2,Observation,A method for creating results by deriving them from other results.,Derivation,,,,/api/v1/methodtype/derivation/,derivation,201,Current
+3,Observation,A method for deploying a piece of equipment that will not make observations at a sampling feature.,Equipment deployment,,,,/api/v1/methodtype/equipmentDeployment/,equipmentDeployment,202,Current
+4,Equipment,"A method for performing periodic upkeep or servicing of field or laboratory equipment. Maintenance may be performed in the field, in a laboratory, or at a factory maintenance center.",Equipment maintenance,,,,/api/v1/methodtype/equipmentMaintenance/,equipmentMaintenance,203,Current
+5,,A method for creating or modifying the data collection program running on a datalogger or other equipment deployed at a monitoring site. ,Equipment programming,,,,/api/v1/methodtype/equipmentProgramming/,equipmentProgramming,204,Current
+6,Equipment,A method for retrieving equipment from a sampling feature at which or on which it was deployed.,Equipment retrieval,,,,/api/v1/methodtype/equipmentRetrieval/,equipmentRetrieval,205,Current
+7,Observation,A method for creating results by estimation or professional judgement.,Estimation,,,,/api/v1/methodtype/estimation/,estimation,206,Current
+8,FieldActivity,A method for performing an expedition action.,Expedition,,,,/api/v1/methodtype/expedition/,expedition,207,Current
+9,FieldActivity,A method for performing an activity in the field at or on a sampling feature.,Field activity,,,,/api/v1/methodtype/fieldActivity/,fieldActivity,208,Current
+10,Other,A method for completing a non-specific action that does not produce a result.,Generic non-observation,,,,/api/v1/methodtype/genericNonObservation/,genericNonObservation,209,Current
+11,Equipment,A method for calibrating an instrument either in the field or in the laboratory. ,Instrument calibration,,,,/api/v1/methodtype/instrumentCalibration/,instrumentCalibration,210,Current
+12,Method,A method for verifying the instrument or meter calibration by measuring a calibration standard of known value as if it were a sample and comparing the measured result to the calibration acceptance criteria listed in the Standard Operating Procedure.,Instrument Continuing Calibration Verification,,Florida Department of Environmental Protection. DEP-SOP-001/01 FT 1000. General Field Testing and Measurement. See: http://www.dep.state.fl.us/water/sas/sop/sops.htm,,/api/v1/methodtype/instrumentContinuingCalibrationVerification/,instrumentContinuingCalibrationVerification,1525,Current
+13,Observation,A method for deploying an instrument to make observations at a sampling feature.,Instrument deployment,,,,/api/v1/methodtype/instrumentDeployment/,instrumentDeployment,211,Current
+14,Equipment,A method for retrieving or recovering an instrument that has been deployed at a smpling feature.,Instrument retrieval,,,,/api/v1/methodtype/instrumentRetrieval/,instrumentRetrieval,212,Current
+15,Observation,A method for creating observation results. This term should be used when a Result is generated but the more specific terms of Instrument deployment or Specimen analysis are not applicable.,Observation,,,,/api/v1/methodtype/observation/,observation,213,Current
+16,Observation,A method for creating results by running a simulation model.,Simulation,,,,/api/v1/methodtype/simulation/,simulation,214,Current
+17,FieldActivity,A method for performing a site visit action.,Site visit,,,,/api/v1/methodtype/siteVisit/,siteVisit,215,Current
+18,Observation,"A method for ex situ analysis of a specimen using an instrument, typically in a laboratory, for the purpose of measuring properties of a specimen.",Specimen analysis,,,,/api/v1/methodtype/specimenAnalysis/,specimenAnalysis,216,Current
+19,SamplingFeature,A method for collecting a specimen for ex situ analysis.,Specimen collection,,,,/api/v1/methodtype/specimenCollection/,specimenCollection,217,Current
+20,SamplingFeature,A method for separating a specimen into multiple different fractions or size classes.,Specimen fractionation,,,,/api/v1/methodtype/specimenFractionation/,specimenFractionation,218,Current
+21,SamplingFeature,A method for processing a specimen collected in the field to produce a sample suitable for analysis using a particular analytical procedure.,Specimen preparation,,,,/api/v1/methodtype/specimenPreparation/,specimenPreparation,219,Current
+22,SamplingFeature,A method for preserving a specimen either in the field or in a laboratory prior to ex situ analysis.,Specimen preservation,,,,/api/v1/methodtype/specimenPreservation/,specimenPreservation,220,Current
+23,FieldActivity,A method for launching a submersible from a vessel or ship.,Submersible launch,,,,/api/v1/methodtype/submersibleLaunch/,submersibleLaunch,221,Current
+24,Other,The method type is unknown.,Unknown,,,,/api/v1/methodtype/unknown/,unknown,222,Current

@@ -1,0 +1,26 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,Annotation,An annotation or qualifying comment about an Action,Action annotation,,,,/api/v1/annotationtype/actionAnnotation/,actionAnnotation,1107,Current
+1,Group,"A group of actions such as those that are part of a cruise, expedition, experiment, project, etc.",Action group,,,,/api/v1/annotationtype/actionGroup/,actionGroup,1108,Current
+2,Annotation,An annotation or data qualifying comment applied to a data value from a categorical Result,Categorical result value annotation,,,,/api/v1/annotationtype/categoricalResultValueAnnotation/,categoricalResultValueAnnotation,1109,Current
+3,Annotation,An annotation or qualifying comment about a DataSet,Dataset annotation,,,,/api/v1/annotationtype/dataSetAnnotation/,dataSetAnnotation,1110,Current
+4,Annotation,An annotation or qualifying comment about a piece of Equipment,Equipment annotation,,,,/api/v1/annotationtype/equipmentAnnotation/,equipmentAnnotation,1111,Current
+5,Annotation,An annotation or data qualifying comment applied to a data value from a measurement Result,Measurement result value annotation,,,,/api/v1/annotationtype/measurementResultValueAnnotation/,measurementResultValueAnnotation,1112,Current
+6,Annotation,An annotation or qualifiying comment about a Method,Method annotation,,,,/api/v1/annotationtype/methodAnnotation/,methodAnnotation,1113,Current
+7,Annotation,An annotation or qualifiying comment about an Organization,Organization annotation,,,,/api/v1/annotationtype/organizationAnnotation/,organizationAnnotation,1114,Current
+8,Annotation,An annotation or qualifying comment about a Person,Person annotation,,,,/api/v1/annotationtype/personAnnotation/,personAnnotation,1115,Current
+9,Group,"A group of people such as a research team, project team, etc.",Person group,,,,/api/v1/annotationtype/personGroup/,personGroup,1116,Current
+10,Annotation,An annotation or data qualifying comment applied to a data value from a point coverage Result,Point coverage result value annotation,,,,/api/v1/annotationtype/pointCoverageResultValueAnnotation/,pointCoverageResultValueAnnotation,1117,Current
+11,Annotation,An annotation or data qualifying comment applied to a data value from a profile Result,Profile result value annotation,,,,/api/v1/annotationtype/profileResultValueAnnotation/,profileResultValueAnnotation,1118,Current
+12,Annotation,An annotation or qualifying comment about a Result,Result annotation,,,,/api/v1/annotationtype/resultAnnotation/,resultAnnotation,1119,Current
+13,Annotation,An annotation or qualifiying comment about a SamplingFeature,Sampling feature annotation,,,,/api/v1/annotationtype/samplingFeatureAnnotation/,samplingFeatureAnnotation,1120,Current
+14,Annotation,An annotation or data qualifying comment applied to a data value from a section Result,Section result value annotation,,,,/api/v1/annotationtype/sectionResultValueAnnotation/,sectionResultValueAnnotation,1121,Current
+15,Annotation,An annotation or qualifying comment about a Site,Site annotation,,,,/api/v1/annotationtype/siteAnnotation/,siteAnnotation,1122,Current
+16,Group,"A group of sites such as a transect, station, observatory, monitoring collection, etc.",Site group,,,,/api/v1/annotationtype/siteGroup/,siteGroup,1123,Current
+17,Annotation,An annotation or qualifying comment about a Specimen,Specimen annotation,,,,/api/v1/annotationtype/specimenAnnotation/,specimenAnnotation,1124,Current
+18,Group,"A group of specimens such as an analysis batch, profile, experiment, etc.",Specimen group,,,,/api/v1/annotationtype/specimenGroup/,specimenGroup,1125,Current
+19,Annotation,An annotation or data qualifying comment applied to a data value from a spectra Result,Spectra result value annotation,,,,/api/v1/annotationtype/spectraResultValueAnnotation/,spectraResultValueAnnotation,1126,Current
+20,Annotation,An annotation or data qualifying comment applied to a data value from a time series Result,Time series result value annotation,,,,/api/v1/annotationtype/timeSeriesResultValueAnnotation/,timeSeriesResultValueAnnotation,1127,Current
+21,Annotation,An annotation or data qualifying comment applied to a data value from a trajectory Result,Trajectory result value annotation,,,,/api/v1/annotationtype/trajectoryResultValueAnnotation/,trajectoryResultValueAnnotation,1128,Current
+22,Annotation,An annotation or data qualifying comment applied to a data value from a transect Result,Transect result value annotation,,,,/api/v1/annotationtype/transectResultValueAnnotation/,transectResultValueAnnotation,1129,Current
+23,Group,"A group of data values such as those from a profile, analysis, spectra, publication table, dataset, incident reports, etc.",Value group,,,,/api/v1/annotationtype/valueGroup/,valueGroup,1130,Current
+24,Annotation,An annotation or qualifying comment about a Variable,Variable annotation,,,,/api/v1/annotationtype/variableAnnotation/,variableAnnotation,1131,Current

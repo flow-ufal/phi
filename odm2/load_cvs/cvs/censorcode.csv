@@ -1,0 +1,7 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,,The value is known to be greater than the recorded value.,Greater than,,Adapted from CUAHSI HIS CensorCodeCV.  See: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Cen,,/api/v1/censorcode/greaterThan/,greaterThan,288,Current
+1,,The value is known to be less than the recorded value.,Less than,,Adapted from CUAHSI HIS CensorCodeCV.  See: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Cen,,/api/v1/censorcode/lessThan/,lessThan,289,Current
+2,,The value was reported as a non-detect. The recorded value represents the level at which the anlalyte can be detected.,Non-detect,,Adapted from CUAHSI HIS CensorCodeCV.  See: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Cen,,/api/v1/censorcode/nonDetect/,nonDetect,290,Current
+3,,The reported value is not censored.,Not censored,,Adapted from CUAHSI HIS CensorCodeCV.  See: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Cen,,/api/v1/censorcode/notCensored/,notCensored,291,Current
+4,,"The anlayte is known to be present, but was not quantified. The recorded value represents the level below which the analyte can no longer be quantified.",Present but not quantified,,Adapted from CUAHSI HIS CensorCodeCV.  See: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Cen,,/api/v1/censorcode/presentButNotQuantified/,presentButNotQuantified,292,Current
+5,,It is unknown whether the data value as reported is censored.,Unknown,,,,/api/v1/censorcode/unknown/,unknown,293,Current

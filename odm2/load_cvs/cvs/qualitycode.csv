@@ -1,0 +1,6 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,,A quality assessment has been made and enough of the data quality objectives have not been met that the observation has been assessed to be of bad quality.,Bad,,,,/api/v1/qualitycode/bad/,bad,1,Current
+1,,A quality assessment has been made and all data quality objectives have been met.,Good,,,,/api/v1/qualitycode/good/,good,2,Current
+2,,A quality assessment has been made and one or more data quality objectives has not been met. The observation may be suspect and has been assessed to be of marginal quality.,Marginal,,,,/api/v1/qualitycode/marginal/,marginal,3,Current
+3,,No data quality assessment has been made.,None,,,,/api/v1/qualitycode/none/,none,4,Current
+4,,The quality of the observation is unknown.,Unknown,,,,/api/v1/qualitycode/unknown/,unknown,5,Current

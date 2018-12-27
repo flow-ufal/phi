@@ -1,0 +1,5 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,,Data collection is complete. No new data values will be added.,Complete,,,,/api/v1/status/complete/,complete,1103,Current
+1,,Data collection is ongoing.  New data values will be added periodically.,Ongoing,,,,/api/v1/status/ongoing/,ongoing,1104,Current
+2,,"Data collection is planned. Resulting data values do not yet exist, but will eventually.",Planned,,,,/api/v1/status/planned/,planned,1105,Current
+3,,The status of data collection is unknown.,Unknown,,,,/api/v1/status/unknown/,unknown,1106,Current

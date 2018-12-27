@@ -1,0 +1,33 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,,A laboratory within which ex situ analysis of of environmental samples is performed.,Analytical laboratory,,,,/api/v1/organizationtype/analyticalLaboratory/,analyticalLaboratory,1466,Current
+1,,A group of persons associated for a common purpose.,Association,,,,/api/v1/organizationtype/association/,association,1467,Current
+2,,A place where some function or activity occurs.,Center,,,,/api/v1/organizationtype/center/,center,1468,Current
+3,,An institution of higher education.,College,,,,/api/v1/organizationtype/college/,college,1469,Current
+4,,An business entity that provides services.,Company,,,,/api/v1/organizationtype/company/,company,1470,Current
+5,,An association of individuals or organizations for the purpose of engaging in a joint venture.,Consortium,,,,/api/v1/organizationtype/consortium/,consortium,1471,Current
+6,,"A subdivision or unit within a university, institution, or agency.",Department,,,,/api/v1/organizationtype/department/,department,1472,Current
+7,,"A section of a large company, agency, or organization.",Division,,,,/api/v1/organizationtype/division/,division,1473,Current
+8,,"An organization whose values are based on faith and/or beliefs, which has a mission based on social values of the particular faith, and which most often draws its activists (leaders, staff, volunteers) from a particular faith group.",Faith-based organization,,See https://en.wikipedia.org/wiki/Faith-based_organization,https://en.wikipedia.org/wiki/Faith-based_organization,/api/v1/organizationtype/faithBasedOrganization/,faithBasedOrganization,1540,Current
+9,,An institution or organization supported by a donation or legacy appropriation.,Foundation,,,,/api/v1/organizationtype/foundation/,foundation,1474,Current
+10,,An organization that funds research or creative works.,Funding organization,,,,/api/v1/organizationtype/fundingOrganization/,fundingOrganization,1475,Current
+11,,A department or other administrative unit of a government.,Government agency,,,,/api/v1/organizationtype/governmentAgency/,governmentAgency,1476,Current
+12,,An organization founded to promote a cause.,Institute,,,,/api/v1/organizationtype/institute/,institute,1477,Current
+13,,"A room, building, or institution equipped for scientific research, experimentation, or analysis.",Laboratory,,,,/api/v1/organizationtype/laboratory/,laboratory,1478,Current
+14,,An institution that holds books and or other forms of stored information for use by the public or other experts.,Library,,,,/api/v1/organizationtype/library/,library,1479,Current
+15,,A person or company that makes a product.,Manufacturer,,,,/api/v1/organizationtype/manufacturer/,manufacturer,1480,Current
+16,,"A building or institution dedicated to the acquisition, conservation, study, exhibition, and educational interpretation of objects having scientific, historical, cultural, or artistic value.",Museum,,,,/api/v1/organizationtype/museum/,museum,1481,Current
+17,,"An organization that promotes outdoor exploration, provides nature education, and or fosters appreciation and stewardship of the natural world.",Nature center,,,,/api/v1/organizationtype/natureCenter/,natureCenter,1541,Current
+18,,"An organization dedicated to furthering a particular social cause or advocating for a shared point of view. In economic terms, it is an organization that uses its surplus of revenues to further achieve its ultimate objective, rather than distributing its income to the organization's shareholders, leaders, or members. Non-profits are tax exempt or charitable, meaning they do not pay income tax on the money that they receive for their organization. They can operate in religious, scientific, research, or educational settings.",Non-profit organization,,See https://en.wikipedia.org/wiki/Nonprofit_organization,https://en.wikipedia.org/wiki/Nonprofit_organization,/api/v1/organizationtype/nonProfitOrganization/,nonProfitOrganization,1544,Current
+19,,"An organization that operates federal, state, county, or municipal parks.",Park,,,,/api/v1/organizationtype/park/,park,1542,Current
+20,,A set of structured activities.,Program,,,,/api/v1/organizationtype/program/,program,1482,Current
+21,,An organization that publishes data.,Publisher,,,,/api/v1/organizationtype/publisher/,publisher,1483,Current
+22,,A department or other administrative unit of a government with the express purpose of conducting research.,Research agency,,,,/api/v1/organizationtype/researchAgency/,researchAgency,1484,Current
+23,,An organization founded to conduct research.,Research institute,,,,/api/v1/organizationtype/researchInstitute/,researchInstitute,1485,Current
+24,,A group of cooperating researchers.,Research organization,,,,/api/v1/organizationtype/researchOrganization/,researchOrganization,1486,Current
+25,,An educational institution providing primary education.,School primary,,,,/api/v1/organizationtype/schoolPrimary/,schoolPrimary,1546,Current
+26,,An educational institution providing secondary education.,School secondary,,,,/api/v1/organizationtype/schoolSecondary/,schoolSecondary,1545,Current
+27,,A group of students who associate for a particular purpose. ,Student organization,,,,/api/v1/organizationtype/studentOrganization/,studentOrganization,1488,Current
+28,,An institution of higher education.,University,,,,/api/v1/organizationtype/university/,university,1489,Current
+29,,The organization type is unknown.,Unknown,,,,/api/v1/organizationtype/unknown/,unknown,1490,Current
+30,,A person or company that sells a product.,Vendor,,,,/api/v1/organizationtype/vendor/,vendor,1491,Current
+31,,A group of young people that meet and participate in a variety of activities.,Youth group,,,,/api/v1/organizationtype/youthGroup/,youthGroup,1543,Current

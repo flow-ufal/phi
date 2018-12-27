@@ -1,0 +1,6 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,,A Dataset that contains multiple time series Results. This corresponds to the YAML Observations Data Archive (YODA) multi-time series profile.,Multi-time series,,,,/api/v1/datasettype/multiTimeSeries/,multiTimeSeries,297,Current
+1,,A dataset that contains multiple measurement Results derived from Specimens. This corresponds to the YAML Observations Data Archive (YODA) specimen time series profile.,Multi-variable specimen measurements,,,,/api/v1/datasettype/multiVariableSpecimenMeasurements/,multiVariableSpecimenMeasurements,298,Current
+2,,A set of Results that has been grouped into a Dataset because they are logically related. The group does not conform to any particular profile.,Other,,,,/api/v1/datasettype/other/,other,299,Current
+3,,A Dataset that contains a single time series Result. This corresponds to the YAML Observations Data Archive (YODA) singe time series profile.,Single time series,,,,/api/v1/datasettype/singleTimeSeries/,singleTimeSeries,300,Current
+4,,A dataset that contains multiple measurement Results derived from Specimens. This corresponds to the YAML Observations Data Archive (YODA) specimen time series profile.,Specimen time series,,,,/api/v1/datasettype/specimenTimeSeries/,specimenTimeSeries,301,Current

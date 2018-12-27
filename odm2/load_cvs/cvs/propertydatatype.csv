@@ -1,0 +1,6 @@
+,category,definition,name,note,provenance,provenance_uri,resource_uri,term,vocabulary_id,vocabulary_status
+0,,"A boolean type is typically a logical type that can be either ""true"" or ""false"".",Boolean,,,,/api/v1/propertydatatype/boolean/,boolean,1515,Current
+1,,A predefined list of strings that a user can select from.,Controlled list,,,,/api/v1/propertydatatype/controlledList/,controlledList,1526,Current
+2,,A floating-point number represents a limited-precision rational number that may have a fractional part. ,Floating point number,,,,/api/v1/propertydatatype/floatingPointNumber/,floatingPointNumber,1516,Current
+3,,"An integer data type can hold a whole number, but no fraction. Integers may be either signed (allowing negative values) or unsigned (nonnegative values only). ",Integer,,,,/api/v1/propertydatatype/integer/,integer,1517,Current
+4,,"An array of characters including letters, digits, punctuation marks, symbols, etc.",String,,,,/api/v1/propertydatatype/string/,string,1518,Current
