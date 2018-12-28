@@ -77,6 +77,9 @@ for vocabulary in vocabulary_list:
     for i in range(len(df)):
         term = df['term'][i]
         name = df['name'][i]
+        if vocabulary == 'unitstype':
+            if name is not 'pH' and not name.isupper():
+                name.capitalize()
         definition = df['definition'][i]
         category = df['category'][i]
         sourcevocabularyuri = df['resource_uri'][i]
