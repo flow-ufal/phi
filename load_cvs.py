@@ -38,10 +38,6 @@ from odm2.models import CvUnitsType
 from odm2.models import CvVariableName
 from odm2.models import CvVariableType
 
-from odm2.models import Units
-
-
-django.setup()
 
 url = 'http://vocabulary.odm2.org/api/v1/%s/?format=json'
 
@@ -73,8 +69,6 @@ vocabulary_list = [('actiontype', CvActionType),
                    ('variablename', CvVariableName),
                    ('variabletype', CvVariableType),
                    ]
-
-extra = [('units', Units)]
 
 for vocabulary in vocabulary_list:
     data = requests.get(url % vocabulary[0]).json()['objects']
