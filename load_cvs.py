@@ -77,7 +77,7 @@ for n, vocabulary in enumerate(vocabulary_list):
     for i in range(len(df)):
         term = df['term'][i]
         name = df['name'][i]
-        if vocabulary == 'unitstype':
+        if vocabulary[0] == 'unitstype':
             if name is not 'pH' and not name.isupper():
                 name.capitalize()
         definition = df['definition'][i]
