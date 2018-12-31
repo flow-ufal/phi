@@ -540,7 +540,7 @@ class Affiliations(models.Model):
     personlink = models.CharField(max_length=255, blank=True)
 
     def __str__(self):
-        s = self.personid
+        s = str(self.personid)
         if self.organizationid:
             s += " | %s" % self.organizationid
         return s
