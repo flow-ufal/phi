@@ -79,7 +79,7 @@ for n, vocabulary in enumerate(vocabulary_list):
         name = df['name'][i]
         if vocabulary[0] == 'unitstype':
             if name is not 'pH' and not name.isupper():
-                name.capitalize()
+                name = name.capitalize()
         definition = df['definition'][i]
         category = df['category'][i]
         sourcevocabularyuri = df['resource_uri'][i]
