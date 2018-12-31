@@ -71,6 +71,8 @@ vocabulary_list = [('actiontype', CvActionType),
                    ]
 
 for n, vocabulary in enumerate(vocabulary_list):
+    print('{}... '.format(vocabulary[0]), end='')
+
     data = requests.get(url % vocabulary[0]).json()['objects']
     df = pd.DataFrame.from_dict(data)
 
@@ -86,4 +88,4 @@ for n, vocabulary in enumerate(vocabulary_list):
 
         obj = vocabulary[1](term=term, name=name, definition=definition, category=category, sourcevocabularyuri=sourcevocabularyuri)
         obj.save()
-    print('{}... done! ({} de {})'.format(vocabulary[0], n+1, len(vocabulary_list)))
+    print('done! ({} de {})'.format(n+1, len(vocabulary_list)))
