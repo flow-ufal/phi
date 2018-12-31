@@ -86,4 +86,4 @@ for n, vocabulary in enumerate(vocabulary_list):
 
         obj = vocabulary[1](term=term, name=name, definition=definition, category=category, sourcevocabularyuri=sourcevocabularyuri)
         obj.save()
-    print('{}... done! ({} de {})'.format(vocabulary[0], n, len(vocabulary_list)))
+    print('{}... done! ({} de {})'.format(vocabulary[0], n+1, len(vocabulary_list)))
